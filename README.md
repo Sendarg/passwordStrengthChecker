@@ -1,12 +1,12 @@
-# password role checker
+# password Strength Checker
 
 This program was written by `Sendarg Lee`, use it carefully feel FREE ! 
 GitHub:https://github.com/Sendarg
 
-**Usage: passwordrolechecker.py [ -w wordlist_file ] [ -l least ] [ -n ] [ -o outputfile ] clear_password_file**
+**Usage: passwordStrengthChecker.py [ -w wordlist_file ] [ -l least ] [ -n ] [ -o outputfile ] clear_password_file**
 
 Example:
-> passwordrolechecker.py -w wordlist.txt -l 2 -n -o out.txt all.txt
+> passwordStrengthChecker.py -w wordlist.txt -l 2 -n -o out.txt all.txt
 
 
 Options:

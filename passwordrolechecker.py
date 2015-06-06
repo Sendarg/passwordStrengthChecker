@@ -224,8 +224,8 @@ def optionsProcess():
 	from optparse import OptionParser
 	usage=u"Usage: %prog [ -w wordlist_file ] [ -l least ] [ -n ] [ -o outputfile ] clear_password_file\nExample: %prog -w wordlist.txt -l 2 -n -o out.txt all.txt "
 	parser = OptionParser(
-		description="This program was written by Sendarg Lee, use it carefuly! It only work on 64bit Windows!\n",
-		prog="passwordrolechecker.py",
+		description="This program was written by Sendarg Lee, use it carefuly!\n",
+		prog="passwordStrengthChecker.py",
 		version="1.0",
 		usage=usage)
 	parser.add_option("-w",dest="word",help="Specify a keyword,direcoty file,When not specify,use default keywords :%s,%s"%(sKeyword,sDict))
